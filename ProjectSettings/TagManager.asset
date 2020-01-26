@@ -12,6 +12,14 @@ TagManager:
   - LivroMensagem
   - CuchilloMensagem
   - PesoMensagem
+  - FriendsMensagem
+  - FruitsMensagem
+  - MusicMensagem
+  - SleepMensagem
+  - Friends
+  - Fruits
+  - Music
+  - Sleep
   layers:
   - Default
   - TransparentFX

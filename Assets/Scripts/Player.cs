@@ -106,5 +106,58 @@ public class Player : MonoBehaviour
             textoSleep.SetActive(false);
             textoPassaFase.SetActive(false);
         }
+
+        if (collision.gameObject.CompareTag("FriendsMensagem"))
+        {
+            exibirPainel = true;
+            textoLivro.SetActive(false);
+            textoFaca.SetActive(false);
+            textoPeso.SetActive(false);
+            textoFriends.SetActive(true);
+            textoFruits.SetActive(false);
+            textoMusic.SetActive(false);
+            textoSleep.SetActive(false);
+            textoPassaFase.SetActive(false);
+        }
+
+        if (collision.gameObject.CompareTag("FruitsMensagem"))
+        {
+            exibirPainel = true;
+            textoLivro.SetActive(false);
+            textoFaca.SetActive(false);
+            textoPeso.SetActive(false);
+            textoFriends.SetActive(false);
+            textoFruits.SetActive(true);
+            textoMusic.SetActive(false);
+            textoSleep.SetActive(false);
+            textoPassaFase.SetActive(false);
+        }
+
+        if (collision.gameObject.CompareTag("MusicMensagem"))
+        {
+            exibirPainel = true;
+            textoLivro.SetActive(false);
+            textoFaca.SetActive(false);
+            textoPeso.SetActive(false);
+            textoFriends.SetActive(false);
+            textoFruits.SetActive(false);
+            textoMusic.SetActive(true);
+            textoSleep.SetActive(false);
+            textoPassaFase.SetActive(false);
+        }
+
+        if (collision.gameObject.CompareTag("SleepMensagem"))
+        {
+            exibirPainel = true;
+            textoLivro.SetActive(false);
+            textoFaca.SetActive(false);
+            textoPeso.SetActive(false);
+            textoFriends.SetActive(false);
+            textoFruits.SetActive(false);
+            textoMusic.SetActive(false);
+            textoMusic.SetActive(false);
+            textoSleep.SetActive(true);
+            textoPassaFase.SetActive(false);
+        }
     }
 }

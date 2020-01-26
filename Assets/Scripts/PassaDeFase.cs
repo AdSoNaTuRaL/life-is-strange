@@ -31,6 +31,7 @@ public class PassaDeFase : MonoBehaviour
         if (other.gameObject.CompareTag("Player") && BarraDeVida.felicidadeAtual >= 132)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            BarraDeVida.felicidadeAtual = 0;
         }
         else
         {
