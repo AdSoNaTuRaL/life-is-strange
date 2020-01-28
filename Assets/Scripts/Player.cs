@@ -34,6 +34,9 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        Pontuation.playerScore += Time.deltaTime;
+
         //Mover horizontalmente
         float movX;
         movX = Input.GetAxis("Horizontal");

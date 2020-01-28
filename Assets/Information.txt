@@ -1,0 +1,16 @@
+Jogo 1
+
+Jugado en: 28/01/2020 12:46:33
+Numero de objetos buenos cogidos: 10
+Numero de objetos malos cogidos: 1
+Puntos totales obtenidos: 198
+Tiempo total del juego: 1,543512 min
+
+
+Jugado en: 28/01/2020 12:48:39
+Numero de objetos buenos cogidos: 10
+Numero de objetos malos cogidos: 4
+Puntos totales obtenidos: 132
+Tiempo total del juego: 1,491711 min
+
+

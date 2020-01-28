@@ -21,6 +21,7 @@ public class ItensRuins : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             BarraDeVida.felicidadeAtual -= 22;
+            Pontuation.quantidadeObjetosRuins++;
             GetComponent<AudioSource>().Play();
             GetComponent<Renderer>().enabled = false;
             GetComponent<BoxCollider2D>().enabled = false;

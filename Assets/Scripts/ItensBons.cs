@@ -21,6 +21,7 @@ public class ItensBons : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             BarraDeVida.felicidadeAtual += 22;
+            Pontuation.quantidadeObjetosBons++;
             if(BarraDeVida.felicidadeAtual > BarraDeVida.felicidadeMaxima)
             {
                 BarraDeVida.felicidadeAtual = BarraDeVida.felicidadeMaxima;
