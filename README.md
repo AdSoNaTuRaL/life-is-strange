@@ -7,7 +7,7 @@ Serious Games, produced for the discipline of Virtual Environments and Simulatio
 <p align="center">
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-play">Project</a>
+  <a href="#-how-to-play">How to play</a>
 </p>
 
 <br>
@@ -20,7 +20,7 @@ Serious Games, produced for the discipline of Virtual Environments and Simulatio
 
 This project was developed using the following technologies:
 
-- [Unity](https://nextjs.org/)`https://unity.com/`
+- [Unity](https://unity.com/)
 
 ## 🚀 Getting started
 
